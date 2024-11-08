@@ -1,0 +1,99 @@
+[gd_scene load_steps=5 format=3 uid="uid://c1v87sird01w8"]
+
+[ext_resource type="Texture2D" uid="uid://77pptvrpvbxe" path="res://bgefefefs.png" id="1_ddsun"]
+[ext_resource type="FontFile" uid="uid://byrncf4nk8yrj" path="res://textFont.ttf" id="1_t1ux5"]
+[ext_resource type="FontFile" uid="uid://h2oel8rx1crm" path="res://titleFont.ttf" id="2_nguso"]
+[ext_resource type="Texture2D" uid="uid://du5odtavucw85" path="res://THat.png" id="2_sfn51"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bgefefefs" type="Sprite2D" parent="."]
+position = Vector2(304.842, 321.727)
+scale = Vector2(38.1448, 40.2159)
+texture = ExtResource("1_ddsun")
+
+[node name="Bgefefefs2" type="Sprite2D" parent="."]
+position = Vector2(914, 322)
+scale = Vector2(38.1448, 40.2159)
+texture = ExtResource("1_ddsun")
+
+[node name="THat" type="Sprite2D" parent="."]
+position = Vector2(1086, 615)
+scale = Vector2(0.69, 0.69)
+texture = ExtResource("2_sfn51")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 2
+offset_left = 17.0
+offset_top = 64.0
+offset_right = 394.0
+offset_bottom = 598.0
+theme_override_colors/word_highlighted_color = Color(0.780575, 0.536369, 0.574111, 1)
+theme_override_colors/current_line_color = Color(1, 0.72549, 1, 1)
+theme_override_colors/background_color = Color(0.0784314, 0.121569, 0.215686, 1)
+theme_override_fonts/font = ExtResource("1_t1ux5")
+theme_override_font_sizes/font_size = 19
+
+[node name="TextEdit2" type="TextEdit" parent="."]
+layout_mode = 2
+offset_left = 477.0
+offset_top = 64.0
+offset_right = 935.0
+offset_bottom = 257.0
+theme_override_colors/word_highlighted_color = Color(0.780575, 0.536369, 0.574111, 1)
+theme_override_colors/current_line_color = Color(1, 0.72549, 1, 1)
+theme_override_colors/background_color = Color(0.0784314, 0.121569, 0.215686, 1)
+theme_override_fonts/font = ExtResource("1_t1ux5")
+theme_override_font_sizes/font_size = 19
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 7.0
+offset_right = 408.0
+offset_bottom = 39.0
+theme_override_fonts/font = ExtResource("2_nguso")
+theme_override_font_sizes/font_size = 24
+text = "Eclipsic Modding tool"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 36.0
+offset_right = 211.0
+offset_bottom = 63.0
+theme_override_fonts/font = ExtResource("1_t1ux5")
+theme_override_font_sizes/font_size = 20
+text = "Terminal"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 578.0
+offset_top = 31.0
+offset_right = 835.0
+offset_bottom = 58.0
+theme_override_fonts/font = ExtResource("1_t1ux5")
+theme_override_font_sizes/font_size = 20
+text = "Edit Mod Description"
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 492.0
+offset_top = 274.0
+offset_right = 749.0
+offset_bottom = 301.0
+theme_override_fonts/font = ExtResource("1_t1ux5")
+theme_override_font_sizes/font_size = 20
+text = "Recent"
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 516.0
+offset_top = 324.0
+offset_right = 946.0
+offset_bottom = 559.0
